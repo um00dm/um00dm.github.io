@@ -1,0 +1,73 @@
+html {
+    font-size: 10px; /* px は「ピクセル」 (pixels) の意味。ベースフォントサイズは 10 ピクセルの高さになった */
+    font-family: "Open Sans", sans-serif; /* これが Google フォントから取得した残りの出力になるはず。 */
+  }
+/*本文全体の設定*/
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #304A63;
+    padding: 0 20px 20px 20px;
+  }
+
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  h4 {
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+
+  p,
+  li {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  hr.line1{
+    border: none;
+    border-top: 2px dotted #999;
+  }
+
+  /*リンクのスタイル設定*/
+  a:link {
+    color: lightseagreen;
+  }
+ 
+  a:visited {
+    color: blueviolet;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  /*画像の設定*/
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+  }
+  
+  /*そのほかの詳細設定*/
+  .date{
+    font-weight: bold;
+  }
+
+  .midashi{
+    font-weight: bold;
+    color: darkblue;
+  }
+
+  .home-p{
+    text-align: center;
+  }
